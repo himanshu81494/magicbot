@@ -1,0 +1,30 @@
+{% extends "_base.html" %}
+{% block content %}
+
+<form action="/pushnotif" method="GET" class="">
+<div class="form-group">
+<label for="male" class="col-sm-2 form-control-label">impact(km)</label>
+  <input type="text" name="impact" value="4" placeholder="impact" class="col-sm-10" /> </div><br>
+<div class="form-group">
+
+  <label for="male" class="col-sm-2 form-control-label">precaution string</label>
+  <input type="text" name="precaution" value="be safe" placeholder="precaution" class="col-sm-10" /> </div><br>
+<div class="form-group">
+
+  <label for="male" class="col-sm-2 form-control-label">Server Latitude</label>
+  <input type="text" name="serverlat" value="28.5434437" placeholder="serverlat" class="col-sm-10" /></div><br>
+<div class="form-group">
+
+  <label for="male" class="col-sm-2 form-control-label">Server Longitude</label>
+  <input type="text" name="serverlon" value="77.3489714" placeholder="serverlon" class="col-sm-10" /></div><br>
+
+  <input type="submit" /> 
+</form>
+<br><br>
+<div class="">
+<a href="/api/toggle?undo='all'"><button class="btn btn-primary">UNDO</button></a>
+</div>
+<br>
+<p><a href="/logout">Logout</a>
+
+{% endblock %}

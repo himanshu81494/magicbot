@@ -1,0 +1,50 @@
+{% extends "_base.html" %}
+{% block content %}
+
+{% if users %}
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>#</th>
+ 
+     
+      <th>email</th>
+      <th>token</th>
+      <th>name</th>
+      <th>contacts</th>
+      <th>lon</th>
+      <th>lat</th>
+      <th>mobileno</th>
+      <th>gcmid</th>
+      <th>gcmregid</th>
+      <th>gcmapikey</th>
+      <th>threat</th>
+      <th>precaution</th>
+    </tr>
+  </thead>
+  <tbody>
+{% for obj in users %}
+<tr>
+  <td>{{ obj.id }}</td>
+  
+
+  <td>{{ obj.email }}</td>
+  <td>{{ obj.user_token }}</td>
+<td>{{ obj.name }}</td>
+<td> {{ obj.contacts }}</td>
+<td>{{ obj.longitude }}</td>
+<td>{{ obj.latitude }}</td>
+<td>{{ obj.mobileno }}</td>
+<td>{{ obj.gcmid }}</td>
+<td>{{obj.gcmregid}}</td>
+<td>{{obj.gcmapikey}}</td>
+<td>{{obj.threat}}</td>
+<td>{{obj.precaution}}</td>
+
+</tr>
+{% endfor %}
+</tbody>
+</table>
+{% endif %}
+
+{% endblock %}
