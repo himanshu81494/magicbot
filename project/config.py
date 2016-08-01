@@ -24,7 +24,7 @@ class BaseConfig(object):
 
     # gmail authentication
     MAIL_USERNAME = 'safewithkrise@gmail.com'#os.environ['APP_MAIL_USERNAME']
-    MAIL_PASSWORD = 'ateamkrise'#os.environ['APP_MAIL_PASSWORD']
+    MAIL_PASSWORD = ''#os.environ['APP_MAIL_PASSWORD']
 
     # mail accounts
     MAIL_DEFAULT_SENDER = 'safewithkrise@gmail.com'
