@@ -66,8 +66,8 @@ localityCode = {
     "ct:7045":[["eta 2", "lt:98493"],["noida extension", "lt:93788"]]
 }
 
-VERIFY_TOKEN = "MAGIC_BOT_VERIFY_TOKEN"
-PAGE_ACCESS_TOKEN =   "EAANZAbOErD3cBAIPPCfcScZAIsXY8JsPILWKXqpAlJvzmGAZBkg2BqW1ZBWvLF0WQmx43ZAO7FjYsRx0iEorvlORU7KQS4k9lC5mFFkOZC81JI3wFz6k4SbILhW5ipi8VZCPiBhqK27Ah2aN89poPvKqjKkBSO4G7gc0Xzq5g2WvQZDZD"
+VERIFY_TOKEN = ""
+PAGE_ACCESS_TOKEN =   ""
 
 @main_blueprint.route('/')
 @login_required
