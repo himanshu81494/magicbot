@@ -1,0 +1,42 @@
+{% extends "_base.html" %}
+{% block content %}
+
+{% if users %}
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>#</th>
+ 
+     
+      <th>id</th>
+      <th>fbid</th>
+      <th>first_name</th>
+      <th>last_name</th>
+      <th>profile_pic</th>
+      <th>timezone</th>
+      <th>locale</th>
+      <th>state</th>
+      
+    </tr>
+  </thead>
+  <tbody>
+{% for obj in users %}
+<tr>
+  <td>{{ obj.id }}</td>
+  
+
+  <td>{{ obj.id }}</td>
+  <td>{{ obj.fbid }}</td>
+<td>{{ obj.first_name }}</td>
+<td> {{ obj.last_name }}</td>
+<td><a href="{{ obj.profile_pic }}">O</a></td>
+<td>{{ obj.timezone }}</td>
+<td>{{ obj.locale }}</td>
+<td>{{ obj.state }}</td>
+</tr>
+{% endfor %}
+</tbody>
+</table>
+{% endif %}
+
+{% endblock %}
