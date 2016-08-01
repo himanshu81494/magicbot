@@ -1,28 +1,3 @@
-"""
-<script>
-  (function() {
-    var cx = '008848241005052050933:hqgz1t61kds';
-    var gcse = document.createElement('script');
-    gcse.type = 'text/javascript';
-    gcse.async = true;
-    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(gcse, s);
-  })();
-</script>
-<gcse:search></gcse:search>
-"""
-"""
-https://www.googleapis.com/customsearch/v1?key=AIzaSyDL1QID08DTw4nty_dUoJcMhoF49F-IlH&cx=008848241005052050933:hqgz1t61kds&q=
-"""
-# project/main/views.py
-# https://github.com/hartleybrody/fb-messenger-bot
-# https://sheltered-eyrie-90773.herokuapp.com/webhook
-
-# /webhook?hub.mode=subscribe&hub.challenge=585640884&hub.verify_token=MAGIC_BOT_VERIFY_TOKEN
-# custom search key AIzaSyDL1QID08DTw4nty_dUoJcMhoF49F-IlH
-# https://secret-anchorage-50296.herokuapp.com/webhook
-# 54.187.106.211
 #################
 #### imports ####
 #################
