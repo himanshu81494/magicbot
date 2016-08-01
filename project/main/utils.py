@@ -2,7 +2,7 @@
 import re
 import random
 import requests
-PAGE_ACCESS_TOKEN =   "EAANZAbOErD3cBAIPPCfcScZAIsXY8JsPILWKXqpAlJvzmGAZBkg2BqW1ZBWvLF0WQmx43ZAO7FjYsRx0iEorvlORU7KQS4k9lC5mFFkOZC81JI3wFz6k4SbILhW5ipi8VZCPiBhqK27Ah2aN89poPvKqjKkBSO4G7gc0Xzq5g2WvQZDZD"
+PAGE_ACCESS_TOKEN =   ""
 
 jokes = {
          'stupid': ["""Yo' Mama is so stupid, she needs a recipe to make ice cubes.""",
