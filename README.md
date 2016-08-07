@@ -13,4 +13,4 @@ Intro: Facebook Messenger chatbot that uses power of text processing (python nlt
 ![alt text][screen_01]
 
 
-[screen_01]: blob:https%3A//drive.google.com/e3be1a84-4941-478c-a45a-5e6dc527ef9c
+[screen_01]: http://i.imgur.com/LxeyVVG.png
