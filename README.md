@@ -9,8 +9,7 @@ Intro: Facebook Messenger chatbot that uses power of text processing (python nlt
 * [Mohit Kumar](http://mohit.ga):    [GIT](https://github.com/mohit4)
 
 
-
-![alt text][screen_01]
-
+<img width="350" src="http://i.imgur.com/LxeyVVG.png" />
+<!--![alt text][screen_01]-->
 
 [screen_01]: http://i.imgur.com/LxeyVVG.png
