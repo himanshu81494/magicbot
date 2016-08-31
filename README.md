@@ -3,6 +3,8 @@ Page: [https://www.facebook.com/magicbricksbot](https://www.facebook.com/magicbr
 
 Intro: Facebook Messenger chatbot that uses power of text processing (python nltk, regex ...) driven by REST api(Flask) deployed on heroku.As facebok app communicate with https only, you have to run api over https.
 
+For documentation: [facebook webhooks](https://developers.facebook.com/docs/graph-api/webhooks)
+
 ## Contributors:
 * [Himanshu Gautam](http://himanshugautam.com): [GIT](https://github.com/himanshu81494)
 * [Mohit Kumar](http://mohit.ga):    [GIT](https://github.com/mohit4)
